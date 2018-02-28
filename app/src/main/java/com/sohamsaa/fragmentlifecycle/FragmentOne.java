@@ -32,8 +32,8 @@ public class FragmentOne extends Fragment{
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view =inflater.inflate(R.layout.fragmentone,container,false);
 
-        Button button = (Button)view.findViewById(R.id.btn);
-        et = (EditText)view. findViewById(R.id.et);
+        Button button = view.findViewById(R.id.btn);
+        et = view. findViewById(R.id.et);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
