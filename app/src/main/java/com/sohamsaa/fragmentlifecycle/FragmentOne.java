@@ -27,6 +27,7 @@ public class FragmentOne extends Fragment{
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //sdkjfadsjfdsbsjsdjk
+        //Nischi is mad
     }
 
     @Nullable
