@@ -12,9 +12,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-/**
- * Created by Team on 11/25/2017.
- */
 
 public class FragmentOne extends Fragment{
     EditText et;
@@ -26,8 +23,6 @@ public class FragmentOne extends Fragment{
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //sdkjfadsjfdsbsjsdjk
-        //Nischi is mad
     }
 
     @Nullable
